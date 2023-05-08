@@ -15,7 +15,7 @@
             <th>Id</th>
             <th>Kenteken</th>
             <th>Type</th>
-            <th>Bouw5467jikolpç+ºjaar</th>
+            <th>Bouwjaar</th>
             <th>Brandstof</th>
             <th>TypeVoertuig</th>
             <th>Rijbewijscategorie</th>
