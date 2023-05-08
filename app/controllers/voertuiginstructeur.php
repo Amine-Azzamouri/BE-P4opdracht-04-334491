@@ -13,8 +13,6 @@ class VoertuigInstructeur extends BaseController
     public function index()
     {
         $result = $this->voertuiginstructeurModel->getVoertuigInstructeur();
-        var_dump($result);
-        echo ("ewa");
 
 
         $rowsvoertuiginstructeur = "";

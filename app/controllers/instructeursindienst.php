@@ -27,7 +27,7 @@ class InstructeursInDienst extends BaseController
     <td>$instructeursindienst->DatumInDienst</td>
     <td>$instructeursindienst->AantalSterren</td>
     <td>
-    <a href='http://www.rijschool.nl:8090/voertuig/index' </a> info
+    <a href='http://www.instructeursindients.nl:8090/voertuig/index' </a> info
     </td>
 </tr>";
         }
