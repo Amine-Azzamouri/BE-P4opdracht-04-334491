@@ -18,7 +18,7 @@ class Instructeur extends BaseController
         $rowsinstructeur = "";
         foreach ($result as $Instructeur) {
             $rowsinstructeur .= "<tr>
-            <td>$Instructeur->Typevoeferrtuig</td>
+            <td>$Instructeur->Typevoertuig</td>
             <td>$Instructeur->Type</td>
             <td>$Instructeur->Kenteken</td>
             <td>$Instructeur->Bouwjaar</td>
