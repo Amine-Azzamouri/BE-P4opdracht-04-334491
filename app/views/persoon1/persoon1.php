@@ -18,7 +18,7 @@
             <th>Bouwjaar</th>
             <th>Brandstof</th>
             <th>TypeVoertuig</th>
-            <th>Rijbewijscategorie</th>
+            <th>Rijbewirtgryhtjscategorie</th>
         </thead>
         <tbody>
             <?php echo $data['rows']; ?>
