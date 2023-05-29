@@ -3,7 +3,7 @@
 -- **********************************************************************************
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 -- Check if the database exists
@@ -21,7 +21,7 @@ Use `Mvc-2209a-P4`;
 -- **********************************************************************************
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 -- Drop table Instructeur
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS Instructeur
 
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 INSERT INTO Instructeur
@@ -81,7 +81,7 @@ VALUES
 -- **********************************************************************************
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 -- Drop table TypeVoertuig
@@ -107,7 +107,7 @@ CREATE TABLE IF NOT EXISTS TypeVoertuig
 
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 INSERT INTO TypeVoertuig
@@ -132,7 +132,7 @@ VALUES
 -- **********************************************************************************
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 -- Drop table Voertuig
@@ -162,7 +162,7 @@ CREATE TABLE IF NOT EXISTS Voertuig
 
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 INSERT INTO Voertuig
@@ -198,7 +198,7 @@ VALUES
 -- **********************************************************************************
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 -- Drop table VoertuigInstructeur
@@ -227,7 +227,7 @@ CREATE TABLE IF NOT EXISTS VoertuigInstructeur
 
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
--- 01            04-04-2023      Arjan de Ruijter            New
+-- 01            20-05-2023      Amine Azzamouri            New
 -- **********************************************************************************/
 
 INSERT INTO VoertuigInstructeur
