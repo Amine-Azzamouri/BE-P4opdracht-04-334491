@@ -13,23 +13,24 @@ class InstructeursInDienst extends BaseController
     public function index()
     {
         $result = $this->instructeursindienstModel->getInstructeursInDienst();
-        //var_dump($result);
+        var_dump($result);
 
 
         $rowsinstructeursindienst = "";
         foreach ($result as $instructeursindienst) {
             $rowsinstructeursindienst .= "<tr>
-    <td>$instructeursindienst->Id</td>
-    <td>$instructeursindienst->Voornaam</td>
-    <td>$instructeursindienst->Tussenvoegsel</td>
-    <td>$instructeursindienst->Achternaam</td>
-    <td>$instructeursindienst->Mobiel</td>
-    <td>$instructeursindienst->DatumInDienst</td>
-    <td>$instructeursindienst->AantalSterren</td>
-    <td>
-    <a href='http://www.instructeursindients.nl:8090/voertuig/index' </a> info
-    </td>
-</tr>";
+            <td>$instructeursindienst->K</td>
+            <td>$instructeursindienst->T</td>
+            <td>$instructeursindienst->A</td>
+            <td>$instructeursindienst->M</td>
+            <td>$instructeursindienst->D</td>            
+            <td>$instructeursindienst->A</td>            
+            <td>
+                <a href='" . URLROOT . "/instructeur/overzichtvoertuigen/$instructeursindienst->Id'>
+                    <i class='bi bi-car-front'>info</i>
+                </a>
+            </td>            
+          </tr>";
         }
 
         $data3 = [
